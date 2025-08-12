@@ -30,11 +30,8 @@ async def chat_bot():
                values=list(models.keys()),
                initial_index=0
            )
-           
-           
        ]
-   ).send()
-   
+   ).send() 
    await setup_chat(settings)
 # -------------------------------------------------------
 @cl.on_settings_update
